@@ -2,7 +2,7 @@ from address import Address #Импортируем класс Address
 from mailing import Mailing #Импортируем класс Mailing
 
 to_address = Address("601916", "Ковров", "Кирова", "104", "7")
-from_address = Address("153008", "Иваново", "Куконковых", "17", "25")
+from_address = Address("153001", "Иваново", "Куконковых", "17", "25")
 
 #Создаём экземпляр класса Mailing
 mailing = Mailing(to_address, from_address, 800, "TRACK234")
