@@ -15,7 +15,7 @@ username_field = WebDriverWait(driver, 10).until(
 )
 username_field.send_keys("tomsmith")
 
-time.sleep(2)
+time.sleep(7)
 
 #Ввод значения в поле password
 password_field = driver.find_element(By.ID, "password")
