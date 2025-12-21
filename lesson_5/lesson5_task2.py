@@ -8,7 +8,7 @@ import time
 driver = webdriver.Chrome()
 
 #Перейти на страницу
-driver.get("http://uitestingplayground.com/classattr")
+driver.get("http://uitestingplayground.com/dynamicid")
 print("страница успешно загружена")
 
 #Добавить задержку перед кликом
